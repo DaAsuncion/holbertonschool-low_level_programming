@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char _putchar = ('_' 'p' 'u' 't' 'c' 'h' 'a' 'r');
+	char _putchar = ('_') ('p') ('u') ('t') ('c') ('h') ('a') ('r');
 
 	putchar(_putchar);
 	return (0);
