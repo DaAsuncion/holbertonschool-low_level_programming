@@ -13,7 +13,8 @@
 	putchar ('c');
 	putchar ('h');
 	putchar ('a');
-	putchar ('r'/n);
+	putchar ('r');
+	putchar ('\n');
 
 	return (0);
 }
