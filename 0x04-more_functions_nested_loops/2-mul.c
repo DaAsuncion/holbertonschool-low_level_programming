@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Write a function that multiplies two integers
+ * mul - Write a function that multiplies two integers
  * @a:c
  * @b:c
  * Return: 0
