@@ -16,7 +16,7 @@ char *_strcat(char *dest, char *src)
 	while (dest[a] != 0)
 	{
 		a++;
-}
+	}
 	b = 0;
 	while (src[b] != 0)
 {
@@ -24,5 +24,5 @@ char *_strcat(char *dest, char *src)
 	a++;
 	b++;
 }
-	return (dest);
-	}
+return (dest);
+}
