@@ -2,9 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * void - Write a function that concatenates two strings
+ * Return: 0
  */
 int main(void)
 {
