@@ -16,12 +16,12 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				if
 					(accept[len] == s[d])
-				{
+					{
 						acc++;
-				}
-						d++;
-						len++;
-				}
+					}
+				d++;
 			}
-			return (acc);
+			len++;
+		}
+		return (acc);
 }
