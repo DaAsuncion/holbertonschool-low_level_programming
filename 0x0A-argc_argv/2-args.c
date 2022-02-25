@@ -1,12 +1,11 @@
 #include <stdio.h>
 /**
  * main - prints all arguments
- * @a: argument
  * @argc: count
  * @argv: parameter
  * Return: 0
 */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int a;
 
