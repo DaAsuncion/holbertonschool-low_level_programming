@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - number of arguments
- *
- *
+ * main - function
+ * @argc: arguments count
+ * @argv: arguments passed here
  * Return: 0
 */
 int main (int argc, char __attribute__((unused)) *argv[])
