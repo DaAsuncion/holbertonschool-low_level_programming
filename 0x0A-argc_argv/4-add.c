@@ -1,29 +1,33 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 /**
  * main - adds positive numbers
- * @argc: count
- * @argv: vector
- * Return: 1
-*/
-int main (int argc,int **argv)
+ * @argc: argumento
+ * @argv: pointers
+ * Return: nothing
+ */
+int main(int argc, char *argv[])
 {
-	int a;
-	int b;
-	int add;
+	int a = 1;
+	int b = 0;
+	int sum = 0;
+
+	if (argc < 1)
+		return (0);
+
 	for (a = 1; a < argc; a++)
 	{
-		for (b = 0, argv [a][b] != "\0"; b++)
+		for (b = 0; argv[a][b]; b++)
 		{
-		if (!isdigit(argv[a][b]))
-		{
-			printf("Error\n");
-			return (1);
+			if (argv[a][b] < 48 || argv[a][b] > 57)
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		}
-		add = add + atoi(argv[a]);
-				}
-				printf("%i\n", add);
-				return (0);
+		sum += atoi(argv[a]);
+	}
+
+		printf("%d\n", sum);
+		return (0);
 }
