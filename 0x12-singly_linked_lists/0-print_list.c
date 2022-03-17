@@ -11,7 +11,7 @@ size_t print_list(const list_t *h)
 {
 	int i;
 
-	for (; h != NULL)
+	for (; h != NULL;)
 	{
 		if (h->str == NULL)
 		{
