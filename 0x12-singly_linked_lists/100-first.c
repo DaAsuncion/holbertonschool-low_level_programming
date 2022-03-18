@@ -1,10 +1,17 @@
-#include<stdio.h>
+#include <stdio.h>
+#include "lists.h"
+
+void aesopica(void) __attribute__ ((constructor));
 /**
- * before_main - prints a string
- * Return: void
+*aesopica - prints string from Aesop's Fables before main ()
 */
-void before_main(void)
+
+void aesopica(void)
 {
-	printf("You're beat! and yet, you must allow,\n");
-	printf("I bore my house upon my back!\n");
+	printf("You're beat! and yet, you must allow,\n"
+	       "I bore my house upon my back!\n");
 }
+
+/* The constructor attribute */
+/* causes the function to be called automatically */
+/*before execution enters main ().*/
