@@ -5,10 +5,13 @@
 /**
  * insert_nodeint_at_index - Write a function that inserts
  * a new node at a given position.
+ * @head: * to list
+ * @idx: index start at 0
+ * @n: int
  * Return: address || NULL if it failed
 */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
-{	
+{
 	unsigned int i = 0;
 	listint_t *aux = *head;
 	listint_t *new;
