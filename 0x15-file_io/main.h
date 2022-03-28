@@ -7,10 +7,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <unistd.h>
-/**
- * Auth: Danielle Serafim
- * Description: Header file containing prototypes of all functions
-*/
 ssize_t read_textfile(const char *filename, size_t letters);
+int _putchar(char c);
 
 #endif
